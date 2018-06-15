@@ -1,0 +1,62 @@
+/************************************************************** tree pane */
+.tree-pane {
+    background-color: rgb(40, 41, 54);
+    border-right-width: 2px;
+    border-right-color: white;
+    border-right-style: solid;
+}
+
+.tree-pane .elements-disclosure li.selected .selection {
+    background-color: black;
+}
+
+/************************************************************** property pane */
+
+.property-pane {
+    background-color: rgb(40, 41, 54);
+    width: 400px;
+    display: flex;
+    min-width: 75px;
+    flex-direction: column;
+}
+
+.property-pane .title{
+    padding: 5px 0px;
+    background-color: #545999;
+    color: #ffffff;
+    font-size: medium;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.property-pane .webkit-html-tag-name.array-tag {
+    color: #dac407;
+}
+
+.property-pane .webkit-html-tag-name.object-tag {
+    color: rgb(189, 147, 249);
+}
+
+.property-pane .webkit-html-tag-name.number-tag {
+    color: #4caf50;
+}
+
+.property-pane .webkit-html-tag-name.boolean-tag {
+    color: #e91e63;
+}
+
+.property-pane .webkit-html-tag-name.string-tag {
+    color: #e1e1e1;
+}
+
+.property-pane .webkit-html-tag-name.key-tag {
+    color: rgb(161, 239, 228);
+}
+
+.property-pane .elements-disclosure li.parent {
+    margin-left: -11px;
+}
+
+.property-pane .elements-disclosure li.parent::before {
+    margin-right: 2px
+}
